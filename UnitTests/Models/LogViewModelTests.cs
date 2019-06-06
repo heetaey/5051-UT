@@ -41,8 +41,7 @@ namespace UnitTests.Models
             var myTest = new LogViewModel();
             var myList = new List<LogModel>();
             myList.Add(new LogModel { PhoneID = "Phone" });
-
-
+            
             // Act
             myTest.LogList = myList;
             var result = myTest.LogList;
