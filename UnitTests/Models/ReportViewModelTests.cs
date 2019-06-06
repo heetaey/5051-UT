@@ -66,11 +66,11 @@ namespace UnitTests.Models
         {
             // Arrange
             var myTest = new ReportViewModel();
-            var myList = new List<LogModel>();
-            myList.Add(new LogModel { PhoneID = "Phone" });
+            var myLogView = new LogViewModel();
+            myLogView.LogList.Add(new LogModel { PhoneID = "Phone" });
 
             // Act
-            myTest.LogViewModel.LogList = myList;
+            myTest.LogViewModel = myLogView;
             var result = myTest.LogViewModel.LogList;
 
             // Assert
