@@ -10,7 +10,6 @@ namespace UnitTests.Models
         [TestMethod]
         public void LogModel_Default_Should_Pass()
         {
-
             // Arange
 
             // Act
